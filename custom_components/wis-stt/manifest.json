@@ -1,0 +1,16 @@
+{
+  "domain": "wis-stt",
+  "name": "WIS STT",
+  "config_flow": true,
+  "documentation": "https://github.com/",
+  "issue_tracker": "https://github.com/issues",
+  "codeowners": [
+    "@A6blpka"
+  ],
+  "dependencies": [
+  ],
+  "requirements": [
+  ],
+  "version": "0.0.1",
+  "iot_class": "local_polling"
+}

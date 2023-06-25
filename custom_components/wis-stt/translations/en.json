@@ -1,0 +1,36 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "data": {
+          "url": "WIS url. You must specify the full path, including /api/willow",
+          "cert_validation": "WIS certificate validation",
+          "model": "Model",
+          "detect_language": "Language detection",
+          "language": "Language",
+          "speaker": "Speaker",
+          "beam_size": "Beam Size",
+          "save_audio": "Audio save"
+        },
+        "description": ""
+      }
+    }
+  },
+  "options": {
+    "step": {
+      "user": {
+        "data": {
+          "url": "WIS url. You must specify the full path, including /api/willow",
+          "cert_validation": "WIS certificate validation",
+          "model": "Model",
+          "detect_language": "Language detection",
+          "language": "Language",
+          "speaker": "Speaker",
+          "beam_size": "Beam Size",
+          "save_audio": "Audio save"
+        },
+        "description": ""
+      }
+    }
+  }
+}
