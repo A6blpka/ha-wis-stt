@@ -1,7 +1,6 @@
 from homeassistant.config_entries import ConfigEntry
 from homeassistant.const import Platform
 from homeassistant.core import HomeAssistant
-from homeassistant.helpers.typing import HomeAssistantType
 
 DOMAIN = "wis-stt"
 
@@ -18,5 +17,5 @@ async def async_setup_entry(hass: HomeAssistant, config_entry: ConfigEntry):
 async def async_unload_entry(hass: HomeAssistant, config_entry: ConfigEntry):
     return await hass.config_entries.async_unload_platforms(config_entry, PLATFORMS)
 
-async def async_update_options(hass: HomeAssistantType, entry):
+async def async_update_options(hass: HomeAssistant, entry):
     await hass.config_entries.async_reload(entry.entry_id)
